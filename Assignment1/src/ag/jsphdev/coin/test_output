@@ -1,0 +1,53 @@
+RUN 1
+
+The side which is initially facing up is: TAILS
+The side which is up in toss number 1:HEADS
+The side which is up in toss number 2:HEADS
+The side which is up in toss number 3:TAILS
+The side which is up in toss number 4:TAILS
+The side which is up in toss number 5:HEADS
+The side which is up in toss number 6:TAILS
+The side which is up in toss number 7:HEADS
+The side which is up in toss number 8:HEADS
+The side which is up in toss number 9:TAILS
+The side which is up in toss number 10:TAILS
+The side which is up in toss number 11:TAILS
+The side which is up in toss number 12:HEADS
+The side which is up in toss number 13:HEADS
+The side which is up in toss number 14:TAILS
+The side which is up in toss number 15:TAILS
+The side which is up in toss number 16:TAILS
+The side which is up in toss number 17:HEADS
+The side which is up in toss number 18:TAILS
+The side which is up in toss number 19:TAILS
+The side which is up in toss number 20:TAILS
+Total number of Heads in the toss: 8
+Total number of Tails in the toss: 12
+
+RUN 2
+
+
+The side which is initially facing up is: TAILS
+The side which is up in toss number 1:TAILS
+The side which is up in toss number 2:TAILS
+The side which is up in toss number 3:TAILS
+The side which is up in toss number 4:TAILS
+The side which is up in toss number 5:TAILS
+The side which is up in toss number 6:HEADS
+The side which is up in toss number 7:HEADS
+The side which is up in toss number 8:TAILS
+The side which is up in toss number 9:TAILS
+The side which is up in toss number 10:HEADS
+The side which is up in toss number 11:TAILS
+The side which is up in toss number 12:HEADS
+The side which is up in toss number 13:HEADS
+The side which is up in toss number 14:TAILS
+The side which is up in toss number 15:TAILS
+The side which is up in toss number 16:TAILS
+The side which is up in toss number 17:TAILS
+The side which is up in toss number 18:HEADS
+The side which is up in toss number 19:TAILS
+The side which is up in toss number 20:HEADS
+Total number of Heads in the toss: 7
+Total number of Tails in the toss: 13
+
