@@ -1,0 +1,22 @@
+The project can be directly imported into any IDE.
+Run the driver class.
+There are five packages:
+Model
+	- Automobile CLass with inner classes
+Util
+	-FileIO - to serialize and deserialize
+	-ReadFile - to parse the file and count the options
+Driver
+	-Driver class to test the functionality
+Adapter
+	-BuildAuto which extends the abstract class
+	-CreateAuto, CreateOption and UpdateOption interfaces
+
+Exception
+	-AutomobileException which fixes the errors
+
+
+There is a test_output.txt file in the root folder.
+The class diagram can also be found at the same place.
+
+A log file is also created to show the errors

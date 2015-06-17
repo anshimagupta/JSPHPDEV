@@ -1,0 +1,4 @@
+1: Make of the Automobile is missing TS:1434402060188
+2: Model of the Automobile is missing TS:1434402108095
+3: BasePrice of the Automobile is missing TS:1434402121637
+4: One or more Options of the Automobile is missing TS:1434402136963
