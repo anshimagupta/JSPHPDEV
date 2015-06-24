@@ -1,0 +1,226 @@
+------------- PART A -------------
+Test Case 1: Create and Print Auto Instance
+
+Make: AUDI
+Model: Another Super Awesome Car
+BasePrice: $90000.0
+Color
+	Fort Knox Gold Clearcoat Metallic - Price: $0.0
+	Liquid Grey Clearcoat Metallic - Price: $0.0
+	Infra-Red Clearcoat - Price: $0.0
+	Grabber Green Clearcoat Metallic - Price: $0.0
+	Sangria Red Clearcoat Metallic - Price: $0.0
+	French Blue Clearcoat Metallic - Price: $0.0
+	Twilight Blue Clearcoat Metallic - Price: $0.0
+	CD Silver Clearcoat Metallic - Price: $0.0
+	Pitch Black Clearcoat - Price: $0.0
+	Cloud 9 White Clearcoat - Price: $0.0
+Transmission
+	automatic - Price: $0.0
+	manual - Price: $-815.0
+Brakes/Traction Control
+	standard - Price: $0.0
+	ABS - Price: $400.0
+	ABS with Advance Trac - Price: $1625.0
+Side Impact Air Bags
+	not present - Price: $0.0
+	present - Price: $350.0
+Power Moonroof
+	not present - Price: $0.0
+	present - Price: $595.0
+
+TEST CASE 2: Check update functionsUpdate Option Set Name 'Transmission ' to 'Transmission Mode' 
+
+Make: AUDI
+Model: Another Super Awesome Car
+BasePrice: $90000.0
+Color
+	Fort Knox Gold Clearcoat Metallic - Price: $0.0
+	Liquid Grey Clearcoat Metallic - Price: $0.0
+	Infra-Red Clearcoat - Price: $0.0
+	Grabber Green Clearcoat Metallic - Price: $0.0
+	Sangria Red Clearcoat Metallic - Price: $0.0
+	French Blue Clearcoat Metallic - Price: $0.0
+	Twilight Blue Clearcoat Metallic - Price: $0.0
+	CD Silver Clearcoat Metallic - Price: $0.0
+	Pitch Black Clearcoat - Price: $0.0
+	Cloud 9 White Clearcoat - Price: $0.0
+Transmission Mode
+	automatic - Price: $0.0
+	manual - Price: $-815.0
+Brakes/Traction Control
+	standard - Price: $0.0
+	ABS - Price: $400.0
+	ABS with Advance Trac - Price: $1625.0
+Side Impact Air Bags
+	not present - Price: $0.0
+	present - Price: $1000.0
+Power Moonroof
+	not present - Price: $0.0
+	present - Price: $595.0
+
+TEST CASE 3: [EXCEPTION] Make field missing
+
+1: Make of the Automobile is missing TS:1434252470672
+
+Enter value for 'make':FORD
+Make: FORD
+2: Model of the Automobile is missing TS:1434252523263
+Model: Focus Wagon ZTW=18445
+BasePrice: $18445.0
+Color
+	Fort Knox Gold Clearcoat Metallic - Price: $0.0
+	Liquid Grey Clearcoat Metallic - Price: $0.0
+	Infra-Red Clearcoat - Price: $0.0
+	Grabber Green Clearcoat Metallic - Price: $0.0
+	Sangria Red Clearcoat Metallic - Price: $0.0
+	French Blue Clearcoat Metallic - Price: $0.0
+	Twilight Blue Clearcoat Metallic - Price: $0.0
+	CD Silver Clearcoat Metallic - Price: $0.0
+	Pitch Black Clearcoat - Price: $0.0
+	Cloud 9 White Clearcoat - Price: $0.0
+Transmission
+	automatic - Price: $0.0
+	manual - Price: $-815.0
+Brakes/Traction Control
+	standard - Price: $0.0
+	ABS - Price: $400.0
+	ABS with Advance Trac - Price: $1625.0
+Side Impact Air Bags
+	not present - Price: $0.0
+	present - Price: $350.0
+Power Moonroof
+	not present - Price: $0.0
+	present - Price: $595.0
+
+TEST CASE 4: [EXCEPTION] Model field missing
+
+Enter value for 'Model': 340i
+3: BasePrice of the Automobile is missing TS:1434252528522
+Make: Ford
+Model:  340i
+BasePrice: $18445.0
+Color
+	Fort Knox Gold Clearcoat Metallic - Price: $0.0
+	Liquid Grey Clearcoat Metallic - Price: $0.0
+	Infra-Red Clearcoat - Price: $0.0
+	Grabber Green Clearcoat Metallic - Price: $0.0
+	Sangria Red Clearcoat Metallic - Price: $0.0
+	French Blue Clearcoat Metallic - Price: $0.0
+	Twilight Blue Clearcoat Metallic - Price: $0.0
+	CD Silver Clearcoat Metallic - Price: $0.0
+	Pitch Black Clearcoat - Price: $0.0
+	Cloud 9 White Clearcoat - Price: $0.0
+Transmission
+	automatic - Price: $0.0
+	manual - Price: $-815.0
+Brakes/Traction Control
+	standard - Price: $0.0
+	ABS - Price: $400.0
+	ABS with Advance Trac - Price: $1625.0
+Side Impact Air Bags
+	not present - Price: $0.0
+	present - Price: $350.0
+Power Moonroof
+	not present - Price: $0.0
+	present - Price: $595.0
+
+TEST CASE 5: [EXCEPTION] Base Price field missing
+
+Enter the 'Base Price' value: 90000
+Make: Ford
+Model: Focus Wagon ZTW
+BasePrice: $90000.0
+Color
+	Fort Knox Gold Clearcoat Metallic - Price: $0.0
+	Liquid Grey Clearcoat Metallic - Price: $0.0
+	Infra-Red Clearcoat - Price: $0.0
+	Grabber Green Clearcoat Metallic - Price: $0.0
+	Sangria Red Clearcoat Metallic - Price: $0.0
+	French Blue Clearcoat Metallic - Price: $0.0
+	Twilight Blue Clearcoat Metallic - Price: $0.0
+	CD Silver Clearcoat Metallic - Price: $0.0
+	Pitch Black Clearcoat - Price: $0.0
+	Cloud 9 White Clearcoat - Price: $0.0
+Transmission
+	automatic - Price: $0.0
+	manual - Price: $-815.0
+Brakes/Traction Control
+	standard - Price: $0.0
+	ABS - Price: $400.0
+	ABS with Advance Trac - Price: $1625.0
+Side Impact Air Bags
+	not present - Price: $0.0
+	present - Price: $350.0
+Power Moonroof
+	not present - Price: $0.0
+	present - Price: $595.0
+
+TEST CASE 6: [EXCEPTION] Options missing
+
+Enter option price Field: 4: One or more Options of the Automobile is missing TS:1434252533100
+30
+Make: Ford
+Model: Focus Wagon ZTW
+BasePrice: $18445.0
+Color
+	Fort Knox Gold Clearcoat Metallic - Price: $0.0
+	Liquid Grey Clearcoat Metallic - Price: $0.0
+	Infra-Red Clearcoat - Price: $0.0
+	Grabber Green Clearcoat Metallic - Price: $0.0
+	Sangria Red Clearcoat Metallic - Price: $0.0
+	French Blue Clearcoat Metallic - Price: $0.0
+	Twilight Blue Clearcoat Metallic - Price: $0.0
+	CD Silver Clearcoat Metallic - Price: $0.0
+	Pitch Black Clearcoat - Price: $0.0
+	Cloud 9 White Clearcoat - Price: $0.0
+Transmission
+	automatic - Price: $0.0
+	manual - Price: $-815.0
+Brakes/Traction Control
+	standard - Price: $0.0
+	ABS - Price: $400.0
+	ABS with Advance Trac - Price: $1625.0
+Side Impact Air Bags
+	not present - Price: $0.0
+	present - Price: $30.0
+Power Moonroof
+	not present - Price: $0.0
+	present - Price: $595.0
+
+TEST CASE 7: [EXCEPTION]File Name Missing
+
+------------- PART A -------------
+Cloud 9 White Clearcoat
+PRICE IS:
+0.0
+
+Make: MUSTANG
+Model: AWESOME CAR
+BasePrice: $1.0E10
+Color
+	Fort Knox Gold Clearcoat Metallic - Price: $0.0
+	Liquid Grey Clearcoat Metallic - Price: $0.0
+	Infra-Red Clearcoat - Price: $0.0
+	Grabber Green Clearcoat Metallic - Price: $0.0
+	Sangria Red Clearcoat Metallic - Price: $0.0
+	French Blue Clearcoat Metallic - Price: $0.0
+	Twilight Blue Clearcoat Metallic - Price: $0.0
+	CD Silver Clearcoat Metallic - Price: $0.0
+	Pitch Black Clearcoat - Price: $0.0
+	Cloud 9 White Clearcoat - Price: $0.0
+Transmission
+	automatic - Price: $0.0
+	manual - Price: $-815.0
+Brakes/Traction Control
+	standard - Price: $0.0
+	ABS - Price: $400.0
+	ABS with Advance Trac - Price: $1625.0
+Side Impact Air Bags
+	not present - Price: $0.0
+	present - Price: $350.0
+Power Moonroof
+	not present - Price: $0.0
+	present - Price: $595.0
+
+
