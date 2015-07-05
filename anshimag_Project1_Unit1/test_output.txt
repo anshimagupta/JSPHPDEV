@@ -1,0 +1,214 @@
+Automotive
+Name=Focus Wagon ZTW
+Baseprice= $18445.0[
+
+Color[Fort Knox Gold Clearcoat Metallic price = $0.0
+, Liquid Grey Clearcoat Metallic price = $0.0
+, Infra-Red Clearcoat price = $0.0
+, Grabber Green Clearcoat Metallic price = $0.0
+, Sangria Red Clearcoat Metallic price = $0.0
+, French Blue Clearcoat Metallic price = $0.0
+, Twilight Blue Clearcoat Metallic price = $0.0
+, CD Silver Clearcoat Metallic price = $0.0
+, Pitch Black Clearcoat price = $0.0
+, Cloud 9 White Clearcoat price = $0.0
+], 
+
+Transmission[automatic price = $0.0
+, manual price = $-815.0
+], 
+
+Brakes/Traction Control[standard price = $0.0
+, ABS price = $400.0
+, ABS with Advance Trac price = $1625.0
+], 
+
+Side Impact Air Bags[not present price = $0.0
+, present price = $350.0
+], 
+
+Power Moonroof[not present price = $0.0
+, present price = $595.0
+]]
+
+Enter the name of the Option Set
+Power Moonroof
+
+
+Power Moonroof[not present price = $0.0
+, present price = $595.0
+]
+CHECK IF AN OPTION EXISTS OR NOT
+
+Enter the name of the Option Set
+Power Moonroof
+
+Enter the name of the Option
+present
+present price = $595.0
+
+UPDATE AN OPTION SET
+
+
+Enter the name of the Option Set
+Power Moonroof
+
+
+Enter the new name of the Option Set
+Powerful
+No such OptionSet Found
+No such OptionSet Found
+No such OptionSet Found
+No such OptionSet Found
+Automotive
+Name=Focus Wagon ZTW
+Baseprice= $18445.0[
+
+Color[Fort Knox Gold Clearcoat Metallic price = $0.0
+, Liquid Grey Clearcoat Metallic price = $0.0
+, Infra-Red Clearcoat price = $0.0
+, Grabber Green Clearcoat Metallic price = $0.0
+, Sangria Red Clearcoat Metallic price = $0.0
+, French Blue Clearcoat Metallic price = $0.0
+, Twilight Blue Clearcoat Metallic price = $0.0
+, CD Silver Clearcoat Metallic price = $0.0
+, Pitch Black Clearcoat price = $0.0
+, Cloud 9 White Clearcoat price = $0.0
+], 
+
+Transmission[automatic price = $0.0
+, manual price = $-815.0
+], 
+
+Brakes/Traction Control[standard price = $0.0
+, ABS price = $400.0
+, ABS with Advance Trac price = $1625.0
+], 
+
+Side Impact Air Bags[not present price = $0.0
+, present price = $350.0
+], 
+
+Powerful[not present price = $0.0
+, present price = $595.0
+]]
+UPDATE OPTIONS
+
+Enter new name, old name is Color
+C
+
+Enter new name, old name is Transmission
+T
+
+Enter new name, old name is Brakes/Traction Control
+B
+
+Enter new name, old name is Side Impact Air Bags
+S
+
+Enter new name, old name is Powerful
+P
+Automotive
+Name=Focus Wagon ZTW
+Baseprice= $18445.0[
+
+C[Fort Knox Gold Clearcoat Metallic price = $0.0
+, Liquid Grey Clearcoat Metallic price = $0.0
+, Infra-Red Clearcoat price = $0.0
+, Grabber Green Clearcoat Metallic price = $0.0
+, Sangria Red Clearcoat Metallic price = $0.0
+, French Blue Clearcoat Metallic price = $0.0
+, Twilight Blue Clearcoat Metallic price = $0.0
+, CD Silver Clearcoat Metallic price = $0.0
+, Pitch Black Clearcoat price = $0.0
+, Cloud 9 White Clearcoat price = $0.0
+], 
+
+T[automatic price = $0.0
+, manual price = $-815.0
+], 
+
+B[standard price = $0.0
+, ABS price = $400.0
+, ABS with Advance Trac price = $1625.0
+], 
+
+S[not present price = $0.0
+, present price = $350.0
+], 
+
+P[not present price = $0.0
+, present price = $595.0
+]]
+DELETE OPSET NAME 
+Enter the name of the Option Set to be deleted
+Automotive
+Name=Focus Wagon ZTW
+Baseprice= $18445.0[
+
+C[Fort Knox Gold Clearcoat Metallic price = $0.0
+, Liquid Grey Clearcoat Metallic price = $0.0
+, Infra-Red Clearcoat price = $0.0
+, Grabber Green Clearcoat Metallic price = $0.0
+, Sangria Red Clearcoat Metallic price = $0.0
+, French Blue Clearcoat Metallic price = $0.0
+, Twilight Blue Clearcoat Metallic price = $0.0
+, CD Silver Clearcoat Metallic price = $0.0
+, Pitch Black Clearcoat price = $0.0
+, Cloud 9 White Clearcoat price = $0.0
+], 
+
+T[automatic price = $0.0
+, manual price = $-815.0
+], 
+
+B[standard price = $0.0
+, ABS price = $400.0
+, ABS with Advance Trac price = $1625.0
+], 
+
+S[not present price = $0.0
+, present price = $350.0
+], 
+
+P[not present price = $0.0
+, present price = $595.0
+]]
+DELETE OPTION 
+ Enter Index of the Option Set to be deleted
+1
+Enter index of option to be deleted
+1
+Automotive
+Name=Focus Wagon ZTW
+Baseprice= $18445.0[
+
+C[Fort Knox Gold Clearcoat Metallic price = $0.0
+, Liquid Grey Clearcoat Metallic price = $0.0
+, Infra-Red Clearcoat price = $0.0
+, Grabber Green Clearcoat Metallic price = $0.0
+, Sangria Red Clearcoat Metallic price = $0.0
+, French Blue Clearcoat Metallic price = $0.0
+, Twilight Blue Clearcoat Metallic price = $0.0
+, CD Silver Clearcoat Metallic price = $0.0
+, Pitch Black Clearcoat price = $0.0
+, Cloud 9 White Clearcoat price = $0.0
+], 
+
+T[automatic price = $0.0
+, null], 
+
+B[standard price = $0.0
+, ABS price = $400.0
+, ABS with Advance Trac price = $1625.0
+], 
+
+S[not present price = $0.0
+, present price = $350.0
+], 
+
+P[not present price = $0.0
+, present price = $595.0
+]]
+
+Process finished with exit code 0

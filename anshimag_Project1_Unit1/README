@@ -1,0 +1,24 @@
+The project can be directly imported into any IDE.
+Run the driver class.
+There are three packages:
+Model
+	- Automotive Class with inner classes
+	- OptionSet class with inner class Option
+Util
+	-FileIO - to serialize and deserialize
+	-ReadFile - to parse the file and count the options
+Driver
+	-Driver class to test the functionality
+
+There is a test_output.txt file in the root folder.
+The class diagram can also be found at the same place.
+
+
+Design Decision
+
+FileIO - The AutomotiveProperties.txt file has the name of the Ford Model along with the base price. Subsequent lines have each item from the OptionSet. I have used “:” to separate the optionSet. The options are separated by “;” and the price is assigned with “=“.
+
+OptionSet1: Option1=value1; Option2=value2;
+OptionSet2: Option1=value1; Option2=value2; Option3=value3
+
+
