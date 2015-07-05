@@ -1,5 +1,7 @@
 package adapter;
 
+import scale.EditConcurrently;
+
 /**
  *
  */

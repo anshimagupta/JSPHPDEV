@@ -1,7 +1,5 @@
 package scale;
 
-import adapter.EditConcurrently;
-
 public class EditOptions extends Thread {
 
     private String modelName;

@@ -31,7 +31,7 @@ package driver;
  */
 
 import adapter.BuildAuto;
-import adapter.EditConcurrently;
+import scale.EditConcurrently;
 import scale.EditOptions;
 
 import java.io.IOException;
