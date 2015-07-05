@@ -1,0 +1,47 @@
+The project can be directly imported into any IDE.
+Run the driver class.
+There are five packages:
+Model
+	- Automobile Class
+	- OptionSet class with Option as inner class
+
+Util
+	-FileIO - to serialize and deserialize
+	-ReadFile - to parse the file and count the options
+Driver
+	-Driver class to test the functionality
+	-Checks if the Make, Model, base price, OptionSet or option is missing
+Adapter
+	-BuildAuto which extends the abstract class
+	-CreateAuto, CreateOption and UpdateOption interfaces
+	-ProxyAutomobile abstract class
+
+Exception
+	-AutomobileException which fixes the errors about missing Properties
+
+
+There is a test_output.txt file in the root folder.
+The class diagram can also be found at the same place.
+
+A log file is also created to show the errors.
+
+
+DESIGN:
+
+Instead of using arrays, I have used hash map so that we can query on the Name of the 
+option set or options instead of array lists.
+
+Th Automobile class exposes all the functions for both OptionSet and Options:
+SELECT
+UPDATE
+DELETE
+GET/SET
+
+The parsing and reading of the file follows the same design architecture which I used in Unit 1.
+
+FileIO - The AutomotiveProperties.txt file has the name of the Ford Model along with the base price. Subsequent lines have each item from the OptionSet. I have used “:” to separate the optionSet. The options are separated by “;” and the price is assigned with “=“.
+
+OptionSet1: Option1=value1; Option2=value2;
+OptionSet2: Option1=value1; Option2=value2; Option3=value3
+
+

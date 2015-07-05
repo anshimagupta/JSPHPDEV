@@ -1,0 +1,228 @@
+/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin/java -Didea.launcher.port=7535 "-Didea.launcher.bin.path=/Applications/IntelliJ IDEA 14 CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/deploy.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/dt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/javaws.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/jconsole.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/management-agent.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/plugin.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/sa-jdi.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunjce_provider.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunpkcs11.jar:/Users/anshima/Documents/anshimag_Proj1_Unit2/anshimag_Proj1_Unit2/out/production/anshimag_Proj1_Unit2:/Applications/IntelliJ IDEA 14 CE.app/Contents/lib/idea_rt.jar" com.intellij.rt.execution.application.AppMain driver.Driver
+------------- PART A -------------
+Test Case 1: Create and Print Auto Instance
+
+Make: AUDI
+Model: Another Super Awesome Car
+BasePrice: $90000.0
+Power Moonroof
+	not present - Price: $0.0
+	present - Price: $595.0
+Side Impact Air Bags
+	not present - Price: $0.0
+	present - Price: $350.0
+Brakes/Traction Control
+	standard - Price: $0.0
+	ABS - Price: $400.0
+	ABS with Advance Trac - Price: $1625.0
+Transmission
+	automatic - Price: $0.0
+	manual - Price: $-815.0
+Color
+	Fort Knox Gold Clearcoat Metallic - Price: $0.0
+	Liquid Grey Clearcoat Metallic - Price: $0.0
+	Infra-Red Clearcoat - Price: $0.0
+	Grabber Green Clearcoat Metallic - Price: $0.0
+	Sangria Red Clearcoat Metallic - Price: $0.0
+	French Blue Clearcoat Metallic - Price: $0.0
+	Twilight Blue Clearcoat Metallic - Price: $0.0
+	CD Silver Clearcoat Metallic - Price: $0.0
+	Pitch Black Clearcoat - Price: $0.0
+	Cloud 9 White Clearcoat - Price: $0.0
+
+TEST CASE 2: Check update functionsUpdate Option Set Name 'Transmission ' to 'Transmission Mode' 
+
+Make: AUDI
+Model: Another Super Awesome Car
+BasePrice: $90000.0
+Power Moonroof
+	not present - Price: $0.0
+	present - Price: $595.0
+Side Impact Air Bags
+	not present - Price: $0.0
+	present - Price: $350.0
+Brakes/Traction Control
+	standard - Price: $0.0
+	ABS - Price: $400.0
+	ABS with Advance Trac - Price: $1625.0
+Transmission Mode
+	automatic - Price: $0.0
+	manual - Price: $-815.0
+Color
+	Fort Knox Gold Clearcoat Metallic - Price: $0.0
+	Liquid Grey Clearcoat Metallic - Price: $0.0
+	Infra-Red Clearcoat - Price: $0.0
+	Grabber Green Clearcoat Metallic - Price: $0.0
+	Sangria Red Clearcoat Metallic - Price: $0.0
+	French Blue Clearcoat Metallic - Price: $0.0
+	Twilight Blue Clearcoat Metallic - Price: $0.0
+	CD Silver Clearcoat Metallic - Price: $0.0
+	Pitch Black Clearcoat - Price: $0.0
+	Cloud 9 White Clearcoat - Price: $0.0
+
+TEST CASE 3: [EXCEPTION] Make field missing
+
+1: Make of the Automobile is missing TS:1436118834122
+
+Enter value for 'make':A
+Make: A
+Model: Focus Wagon ZTW=18445
+BasePrice: $18445.0
+Power Moonroof
+	not present - Price: $0.0
+	present - Price: $595.0
+Side Impact Air Bags
+	not present - Price: $0.0
+	present - Price: $350.0
+Brakes/Traction Control
+	standard - Price: $0.0
+	ABS - Price: $400.0
+	ABS with Advance Trac - Price: $1625.0
+Transmission
+	automatic - Price: $0.0
+	manual - Price: $-815.0
+Color
+	Fort Knox Gold Clearcoat Metallic - Price: $0.0
+	Liquid Grey Clearcoat Metallic - Price: $0.0
+	Infra-Red Clearcoat - Price: $0.0
+	Grabber Green Clearcoat Metallic - Price: $0.0
+	Sangria Red Clearcoat Metallic - Price: $0.0
+	French Blue Clearcoat Metallic - Price: $0.0
+	Twilight Blue Clearcoat Metallic - Price: $0.0
+	CD Silver Clearcoat Metallic - Price: $0.0
+	Pitch Black Clearcoat - Price: $0.0
+	Cloud 9 White Clearcoat - Price: $0.0
+
+TEST CASE 4: [EXCEPTION] Model field missing
+
+Enter value for 'Model':2: Model of the Automobile is missing TS:1436118835659
+A
+3: BasePrice of the Automobile is missing TS:1436118837081
+Make: Ford
+Model: A
+BasePrice: $18445.0
+Power Moonroof
+	not present - Price: $0.0
+	present - Price: $595.0
+Side Impact Air Bags
+	not present - Price: $0.0
+	present - Price: $350.0
+Brakes/Traction Control
+	standard - Price: $0.0
+	ABS - Price: $400.0
+	ABS with Advance Trac - Price: $1625.0
+Transmission
+	automatic - Price: $0.0
+	manual - Price: $-815.0
+Color
+	Fort Knox Gold Clearcoat Metallic - Price: $0.0
+	Liquid Grey Clearcoat Metallic - Price: $0.0
+	Infra-Red Clearcoat - Price: $0.0
+	Grabber Green Clearcoat Metallic - Price: $0.0
+	Sangria Red Clearcoat Metallic - Price: $0.0
+	French Blue Clearcoat Metallic - Price: $0.0
+	Twilight Blue Clearcoat Metallic - Price: $0.0
+	CD Silver Clearcoat Metallic - Price: $0.0
+	Pitch Black Clearcoat - Price: $0.0
+	Cloud 9 White Clearcoat - Price: $0.0
+
+TEST CASE 5: [EXCEPTION] Base Price field missing
+
+Enter the 'Base Price' value: 1200
+Make: Ford
+Model: Focus Wagon ZTW
+4: One or more Options of the Automobile is missing TS:1436118840283
+BasePrice: $1200.0
+Power Moonroof
+	not present - Price: $0.0
+	present - Price: $595.0
+Side Impact Air Bags
+	not present - Price: $0.0
+	present - Price: $350.0
+Brakes/Traction Control
+	standard - Price: $0.0
+	ABS - Price: $400.0
+	ABS with Advance Trac - Price: $1625.0
+Transmission
+	automatic - Price: $0.0
+	manual - Price: $-815.0
+Color
+	Fort Knox Gold Clearcoat Metallic - Price: $0.0
+	Liquid Grey Clearcoat Metallic - Price: $0.0
+	Infra-Red Clearcoat - Price: $0.0
+	Grabber Green Clearcoat Metallic - Price: $0.0
+	Sangria Red Clearcoat Metallic - Price: $0.0
+	French Blue Clearcoat Metallic - Price: $0.0
+	Twilight Blue Clearcoat Metallic - Price: $0.0
+	CD Silver Clearcoat Metallic - Price: $0.0
+	Pitch Black Clearcoat - Price: $0.0
+	Cloud 9 White Clearcoat - Price: $0.0
+
+TEST CASE 6: [EXCEPTION] Options missing
+
+Enter option price Field: 12
+Make: Ford
+Model: Focus Wagon ZTW
+BasePrice: $18445.0
+Power Moonroof
+	not present - Price: $0.0
+	present - Price: $595.0
+Side Impact Air Bags
+	not present - Price: $0.0
+	present - Price: $12.0
+Brakes/Traction Control
+	standard - Price: $0.0
+	ABS - Price: $400.0
+	ABS with Advance Trac - Price: $1625.0
+Transmission
+	automatic - Price: $0.0
+	manual - Price: $-815.0
+Color
+	Fort Knox Gold Clearcoat Metallic - Price: $0.0
+	Liquid Grey Clearcoat Metallic - Price: $0.0
+	Infra-Red Clearcoat - Price: $0.0
+	Grabber Green Clearcoat Metallic - Price: $0.0
+	Sangria Red Clearcoat Metallic - Price: $0.0
+	French Blue Clearcoat Metallic - Price: $0.0
+	Twilight Blue Clearcoat Metallic - Price: $0.0
+	CD Silver Clearcoat Metallic - Price: $0.0
+	Pitch Black Clearcoat - Price: $0.0
+	Cloud 9 White Clearcoat - Price: $0.0
+
+------------- PART B -------------
+Fort Knox Gold Clearcoat MetallicLiquid Grey Clearcoat MetallicInfra-Red ClearcoatGrabber Green Clearcoat MetallicSangria Red Clearcoat MetallicFrench Blue Clearcoat MetallicTwilight Blue Clearcoat MetallicCD Silver Clearcoat MetallicPitch Black ClearcoatCloud 9 White Clearcoat
+PRICE IS:
+0.0
+0: File name is missing TS:1436118843505
+
+Make: MUSTANG
+Model: AWESOME CAR
+BasePrice: $1.0E10
+Power Moonroof
+	not present - Price: $0.0
+	present - Price: $595.0
+Brakes/Traction Control
+	standard - Price: $0.0
+	ABS - Price: $400.0
+	ABS with Advance Trac - Price: $1625.0
+Side Impact Air Bags
+	not present - Price: $0.0
+	present - Price: $350.0
+Transmission
+	automatic - Price: $0.0
+	manual - Price: $-815.0
+Color
+	Fort Knox Gold Clearcoat Metallic - Price: $0.0
+	Liquid Grey Clearcoat Metallic - Price: $0.0
+	Infra-Red Clearcoat - Price: $0.0
+	Grabber Green Clearcoat Metallic - Price: $0.0
+	Sangria Red Clearcoat Metallic - Price: $0.0
+	French Blue Clearcoat Metallic - Price: $0.0
+	Twilight Blue Clearcoat Metallic - Price: $0.0
+	CD Silver Clearcoat Metallic - Price: $0.0
+	Pitch Black Clearcoat - Price: $0.0
+	Cloud 9 White Clearcoat - Price: $0.0
+TEST CASE 7: [EXCEPTION]File Name Missing
+
+
+ You haven't provided the File Name, run the program again
