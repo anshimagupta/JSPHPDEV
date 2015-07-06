@@ -1,0 +1,13 @@
+--------SERVER TESTING-----------
+New client connection at Port: 1234 at time: 1436171214795
+Prius is the received Model
+Prius in sendSelectedModel
+New client connection at Port: 1234 at time: 1436171389415
+Prius is the received Model
+Prius in sendSelectedModel
+New client connection at Port: 1234 at time: 1436171491128
+Prius is the received Model
+Prius in sendSelectedModel
+New client connection at Port: 1234 at time: 1436171554072
+Prius is the received Model
+Prius in sendSelectedModel

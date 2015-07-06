@@ -1,0 +1,41 @@
+The project can be directly imported into any IDE.
+Run the driver class.
+There are five packages:
+Model
+	- Automobile Class
+	-OptionSet and Options
+Util
+	-FileIO - to serialize and deserialize
+	-ReadFile - to parse the properties file which contain different models
+Driver
+	-Driver class to test the functionality. In this case it runs two separate test
+	 for the client server interaction.
+Adapter
+	-BuildAuto which extends the abstract class
+	-CreateAuto, CreateOption and UpdateOption interfaces
+
+Exception
+	-AutomobileException which fixes the errors
+
+Server
+	-AutoServer 
+	This is the interface with methods to list all the models and print them
+	-AutoServer Socket
+	This class is to create the socket and listen on it. It accepts connection from 	client. Since it implements threads, the run method has all the functionalities.
+	-BuildCarModelOptions
+	Has few relevant methods to build a car Model, like add it to the hash map
+	, return an automobile and print selectedOptions.
+
+Client
+	-AutoClientSocket
+	This tries to connect and interact with the server. It reads the properties file
+	and send it to server to create object out of it.
+	-CreateCarModelOptions
+	It is for reading the properties file.
+	-ConfigureCarModel
+	This is for selecting the options from the various available ones
+
+There is a test_output.txt file in the root folder.
+The class diagram can also be found at the same place.
+
+A log file is also created to show the errors
