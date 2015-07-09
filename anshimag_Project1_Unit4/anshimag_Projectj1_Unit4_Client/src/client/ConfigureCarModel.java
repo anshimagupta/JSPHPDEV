@@ -6,7 +6,7 @@ import java.util.Iterator;
 import java.util.Scanner;
 
 /**
- * Created by anshima on 6/28/15.
+ * User is prompted to select the Option out of all in the Option Set
  */
 public class ConfigureCarModel {
     public String askIfConfigRequired() {

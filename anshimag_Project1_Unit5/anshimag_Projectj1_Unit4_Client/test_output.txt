@@ -1,0 +1,35 @@
+Client Side
+========================
+Enter the path and filename for the file which contains the Properties of the Automobile
+prius.properties
+Loaded properties into memory
+[SERVER SIDE] : The new Automobile Model is successfully added
+Enter the path and filename for the file which contains the Properties of the Automobile
+bmw.properties
+[SERVER SIDE] : The new Automobile Model is successfully added
+All available models as below: 
+Prius
+SportsEdition
+Please enter your desired model name:
+Prius
+The Options are as follow: 
+Make: Toyota 
+Model: Prius
+BasePrice: $20000.0
+Brakes 
+	Regular - Price: $300.0
+	ABS - Price: $900.0
+Transmission 
+	Manual - Price: $0.0
+	Automatic - Price: $500.0
+Enter Option Choice
+ABS
+Enter Option Choice
+Manual
+Below is the Configuration of the caryou have chosen. Car Model: Prius
+Car Make: Toyota 
+Base Price: 20000.0
+Brakes 
+ABS - Price: $900.0
+Transmission 
+Manual - Price: $0.0

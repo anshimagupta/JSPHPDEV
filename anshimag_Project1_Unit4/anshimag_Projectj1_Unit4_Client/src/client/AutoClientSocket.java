@@ -7,6 +7,12 @@ import java.net.Socket;
 import java.util.Properties;
 import java.util.Scanner;
 
+/**
+ * This class first creates a connection with the server. It then reads the property file 
+ * and send the object to server. The client selects a particular model and then selects the
+ * options. It is finally displayed with the car it configured along with the prices
+ */
+
 public class AutoClientSocket extends Thread {
     private PrintWriter printWriter;
     private BufferedReader bufferedReader;
@@ -40,9 +46,6 @@ public class AutoClientSocket extends Thread {
             receiveResponse();
         }
         ConfigureCarModel chooseCarModel = new ConfigureCarModel();
-        //response = chooseCarModel.askIfConfigRequired();
-        //sendConfigOption(response);
-
         listAllModelNames();
         sendSelectedModel();
         receiveSelectedModel();

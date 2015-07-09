@@ -1,0 +1,25 @@
+CREATE DATABASE  IF NOT EXISTS automobiles;
+
+CREATE TABLE IF NOT EXISTS automobile (
+id INT(6) NOT NULL AUTO_INCREMENT,
+name VARCHAR(60),
+price FLOAT(10),
+PRIMARY KEY(id)
+);
+
+CREATE TABLE IF NOT EXISTS optionset (
+id INT(6) NOT NULL AUTO_INCREMENT,
+name VARCHAR(60),
+autoid INT(6) NOT NULL,
+PRIMARY KEY(id),
+FOREIGN KEY(autoid) REFERENCES automobile(id)
+);
+
+CREATE TABLE IF NOT EXISTS option (
+id INT(6) NOT NULL AUTO_INCREMENT,
+name VARCHAR(60),
+price FLOAT(10),
+optionsetid INT(6) NOT NULL,
+PRIMARY KEY(id),
+FOREIGN KEY(optionsetid) REFERENCES optionset(id)
+);

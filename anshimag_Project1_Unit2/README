@@ -45,3 +45,11 @@ OptionSet1: Option1=value1; Option2=value2;
 OptionSet2: Option1=value1; Option2=value2; Option3=value3
 
 
+The model package has classes to retrieve the model name and base price. Apart from this, the OptionSets and Options fields can be updated or deleted one at a time.
+
+I have used hash map to store the OptionSet Name and option set. Another hash map is for the choice name and the choice object. This is necessary to query on name of Option Sets or options.
+
+Exception Handling is done for the most common mistakes that can occur like absence of model name or base price. If an option does not have an option price or if option set is missing.
+
+I have not used arrayList after weighing both pro and cons.
+

@@ -16,7 +16,38 @@ Exception
 	-AutomobileException which fixes the errors
 
 
-There is a test_output.txt file in the root folder.
+There are two test_output.txt files in the root folder. One is with synchronization and the other one is without it synchronization and the output is corrupted.
+
 The class diagram can also be found at the same place.
 
-A log file is also created to show the errors
+A log file is also created to show the errors.
+
+Major Design Decisions
+
+Instead of using arrays, I have used hash map so that we can query on the Name of the 
+option set or options instead of array lists.
+
+Th Automobile class exposes all the functions for both OptionSet and Options:
+SELECT
+UPDATE
+DELETE
+GET/SET
+
+The parsing and reading of the file follows the same design architecture which I used in Unit 1.
+
+FileIO - The AutomotiveProperties.txt file has the name of the Ford Model along with the base price. Subsequent lines have each item from the OptionSet. I have used “:” to separate the optionSet. The options are separated by “;” and the price is assigned with “=“.
+
+OptionSet1: Option1=value1; Option2=value2;
+OptionSet2: Option1=value1; Option2=value2; Option3=value3
+
+
+The model package has classes to retrieve the model name and base price. Apart from this, the OptionSets and Options fields can be updated or deleted one at a time.
+
+I have used hash map to store the OptionSet Name and option set. Another hash map is for the choice name and the choice object. This is necessary to query on name of Option Sets or options.
+
+Exception Handling is done for the most common mistakes that can occur like absence of model name or base price. If an option does not have an option price or if option set is missing.
+
+I have not used arrayList after weighing both pro and cons.
+Use of threads and Object Locking. The methods which are updating the data structure have been synchronized.
+
+

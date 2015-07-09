@@ -6,6 +6,9 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.Scanner;
 
+/**
+ * The file is read and object file is sent to Server. 
+ */
 
 public class CreateCarModelOptions {
     public Properties readDataFromFile() {
