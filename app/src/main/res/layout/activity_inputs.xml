@@ -1,0 +1,175 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/material_deep_teal_500"
+    tools:context=".MyActivity">
+
+    <View android:id="@+id/main"
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_centerInParent="true"/>
+
+
+    <EditText
+        android:layout_alignRight="@id/main"
+        android:id="@+id/purchasePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Purchase price"
+        android:inputType="number"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/main"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:text="$"
+        android:padding="10dp"
+        android:id="@+id/purchasePriceUnit" />
+
+    <EditText
+        android:id="@+id/downPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Down payment"
+        android:inputType="number"
+        android:layout_below="@+id/purchasePrice"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_alignLeft="@id/main"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="%"
+        android:id="@+id/downPaymentUnit"
+        android:layout_below="@id/purchasePriceUnit"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/mortgageTerm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Mortgage term"
+        android:inputType="number"
+        android:layout_below="@+id/downPayment"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_alignLeft="@id/main"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Years"
+        android:id="@+id/mortgageTermUnit"
+        android:layout_below="@id/downPaymentUnit"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/interestRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Interest rate"
+        android:inputType="numberDecimal"
+        android:layout_below="@+id/mortgageTerm"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_alignLeft="@id/main"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="%"
+        android:id="@+id/interestRateUnit"
+        android:layout_below="@id/mortgageTermUnit"
+        android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/propertyTax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="propertyTax"
+        android:inputType="numberDecimal"
+        android:layout_below="@+id/interestRate"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_alignLeft="@id/main"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="$ per year"
+        android:id="@+id/propertyTaxUnit"
+        android:layout_below="@id/interestRateUnit"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/propertyInsurance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="PropertyInsurance"
+        android:inputType="numberDecimal"
+        android:layout_below="@+id/propertyTax"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_alignLeft="@id/main"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="$ per year"
+        android:id="@+id/propertyInsuranceUnit"
+        android:layout_below="@id/propertyTaxUnit"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/firstPaymentDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="First Payment Date"
+        android:inputType="date"
+        android:layout_below="@+id/propertyInsurance"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_alignLeft="@id/main"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="MM/DD/YYYY"
+        android:id="@+id/firstPaymentDateUnit"
+        android:layout_below="@id/propertyInsuranceUnit"
+        android:padding="15dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:id="@+id/calculate"
+        android:shadowColor="@color/link_text_material_dark"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+The project can be directly imported into Android Studio.
+Run the driver class.
+There are three packages:
+Model
+	- InputsActivity
+	This class of for initialization and for onClickListener
+	- MortgageCalculator
+	This has methods for calculating the Mortgage
+	- ResultActivity
+	This is for the second activity which displays all the results
+
+DataBase
+	-DBHelper
+	Has two methods.
+	insertMortgage - One takes care of inserting into the Database
+	getAllMortgages - Returns all the items in the Database
+
+UI
+	-activity_inputs.xml
+	There is EditText option on left and TextView on the right.
+	A background color is set
+	-activity_results.xml
+	This displays the three fields in order.
+	The text color is set
+	In the end the DB which persits is displayed
+
+Exception
+	-Exceptions are handled
+
+Output:
+Screenshots have been added.
+
+Home Page : A form appears to fill in the details.
+On clicking calculate, form validation is done.
+A toast appears for all the missing fields
+
+2nd Screen: Dispalys the results calculated. 
+It is a scrollable view.
+
+
+A log file is also created to show the errors
